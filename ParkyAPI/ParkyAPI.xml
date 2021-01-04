@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ParkyAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ParkyAPI.Controllers.NationalParksController.GetNationalParks">
+            <summary>
+            Get All National Parks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.NationalParksController.GetNationalPark(System.Int32)">
+            <summary>
+            Get National Park By Id
+            </summary>
+            <param name="nationalparkId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.NationalParksController.CreateNationalPark(ParkyAPI.Models.DTO.NationalParkDTO)">
+            <summary>
+            Add a New National Park
+            </summary>
+            <param name="nationalParkDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.NationalParksController.UpdateNationalPark(System.Int32,ParkyAPI.Models.DTO.NationalParkDTO)">
+            <summary>
+            Update National Park
+            </summary>
+            <param name="nationalParkId"></param>
+            <param name="nationalParkDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.NationalParksController.DeleteNationalPark(System.Int32)">
+            <summary>
+            Delete National Park
+            </summary>
+            <param name="nationalParkId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.NationalParksV2Controller.GetNationalParks">
+            <summary>
+            Get All National Parks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.TrailsController.GetTrails">
+            <summary>
+            Get All Trails
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.TrailsController.GetTrail(System.Int32)">
+            <summary>
+            Get Trail By Id
+            </summary>
+            <param name="TrailId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.TrailsController.CreateTrail(ParkyAPI.Models.DTO.TrailInsertDTO)">
+            <summary>
+            Add a New Trail
+            </summary>
+            <param name="TrailDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.TrailsController.UpdateTrail(System.Int32,ParkyAPI.Models.DTO.TrailUpdateDTO)">
+            <summary>
+            Update Trail
+            </summary>
+            <param name="TrailId"></param>
+            <param name="TrailDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.TrailsController.DeleteTrail(System.Int32)">
+            <summary>
+            Delete Trail
+            </summary>
+            <param name="TrailId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
